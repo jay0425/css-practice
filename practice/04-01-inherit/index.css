@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  /* 상속되는 속성 */
+  color: blue;
+  font-size: 38px;
+
+  /* 상속되지 않는 속성 */
+  border: 4px solid orange;
+}
+
+.inner-box {
+  /* 상속된 속성 위에 덮어쓰기 */
+  color: red;
+}

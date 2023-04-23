@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed gray;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button1 {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: inline-block;
+  transition: width 0.3s ease-in-out;
+}
+
+.button1:hover {
+  width: 400px;
+}
+
+.button2 {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.button2:hover {
+  width: 400px;
+  opacity: 0.5;
+}
+
+.button3 {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  display: inline-block;
+  transition: color 0.3s ease-in-out, width 0.3s ease-in-out 0.3s;
+}
+
+.button3:hover {
+  width: 400px;
+  opacity: 0.5;
+}
